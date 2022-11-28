@@ -1,9 +1,9 @@
 /*Initiate input prompt*/
-const prompt = require("prompt-sync")({sigint:true});
+//const prompt = require("prompt-sync")({sigint:true});
 
 /*Student Grade Generator Challenge*/
-console.log('STUDENT GRADE GENERATOR');
-getStudentGrade();
+//console.log('STUDENT GRADE GENERATOR');
+//getStudentGrade();
 
 function getStudentGrade(){
     //Get marks prompt
@@ -11,22 +11,29 @@ function getStudentGrade(){
     let studentMarks = prompt('Enter student marks: ');
 
     //Generate student grade
-    switch(studentMarks){
+    switch(true){
         case (studentMarks > 79 && studentMarks <= 100):
-            console.log('The student grade is A');
+            alert('The student grade is A');
             break;
         case (studentMarks >= 60 && studentMarks <= 79):
-            console.log('The student grade is B');
+            alert('The student grade is B');
             break;
         case (studentMarks >= 49 && studentMarks <= 59):
-            console.log('The student grade is C');
+            alert('The student grade is C');
             break;
         case (studentMarks >= 40 && studentMarks < 49):
-                console.log('The student grade is D');
-                break;
+            alert('The student grade is D');
+            break;
+        case (studentMarks < 40 && studentMarks > 0):
+            alert('The student grade is D');
+            //document.writeln('The student grade is D');
+            break;
+        case (studentMarks==null || tudentMarks==undefined):
+            
+            break;
         default:
-                console.log('The student grade is E');
-                break;
+            alert('Sorry, the marks entered is not allowed');
+            break;
     }
 
 }

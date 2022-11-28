@@ -1,0 +1,50 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style rel="stylesheet">
+        body {
+            font-family: courier, serif;
+            }
+
+        #container{
+                max-width: 500px;
+                margin: auto;
+                padding-top: 50px;
+                }
+        .challenge{
+            text-align: center;
+        }
+                
+        h1{
+            text-align: center;
+        }
+        button{
+            padding: 20px 50px;
+            font-size: 1.4em;
+        }
+    </style>
+<script src="grade.js"></script>
+<script src="speed.js"></script>
+<script src="salary.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="challenge">
+            <h1>Challenge 1</h1>
+            <button type="button" onclick="getStudentGrade()">Click to enter marks</button>
+        </div>
+        <div class="challenge">
+            <h1>Challenge 2</h1>
+            <button type="button" onclick="generateDemeritPoint()">Click to enter speed</button>
+        </div>
+        <div class="challenge">
+            <h1>Challenge 3</h1>
+            <button type="button" onclick="calculateSalaryAndTax()">Click to enter salary</button>
+        </div>
+        
+    </div>
+</body>
+</html>
