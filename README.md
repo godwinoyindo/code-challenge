@@ -1,12 +1,58 @@
-# code-challenge
-# "author": "Godwin Oyindo",
-# "license": "ISC"
+# Description
+This is a 
 # Title: Week One code challenge
-
-Description: 
 The project contains three solutions to the three challenges of week one code challenge. All the three challenges are run and tested on browser.
-The file “index.html” contains all the three challenges. To execute it, run it on any browser. The challenges are chronologically arranged with the first challenge comming at the top. "Buttons" are used to aid the click events and initiate input prompts in all the challenges.
+The file “index.html” contains all the three challenges. 
 
+# Getting Started
+In order for you to use the content on this repo ensure you have the following:
+
+- A computer that runs on either of the following; (Windows 7+, Linux, Mac OS)
+- node index.html
+- Some bit of patience for your own sanity.
+
+## Installation
+
+To use this repo on your machine requires some simple steps
+
+### Alternative One
+
+- Open a terminal / command line interface on your computer
+- Clone the repo by using the following:
+
+        git clone https://git@github.com:godwinoyindo/code-challenge.git
+
+- Be patient as it creates a copy on your local machine for you.
+- Change directory to the repo folder:
+
+        cd code-challenge
+
+- (Optional) Open it in ``Visual Studio Code``
+
+        code .
+
+- (Alternate Option) Open it in any editor of your choice.
+
+# Running the application
+
+Running the application is very straight forward. You can use the following steps to run the app.
+
+- Install required dependencies from npm
+
+      npm install
+- Run the application
+
+      node<file name>.<file extension> e.g node index.js
+ To execute it, run it on any browser. The challenges are chronologically arranged with the first challenge comming at the top. "Buttons" are used to aid the click events and initiate input prompts in all the challenges.
+
+# Authors
+This project was contributed to by:
+- [Godwin Oyindo](https://github.com/godwinoyindo/code-challenge)
+
+# License
+The project is licensed under Apache 2.0.
+
+# Additions
 The first challenge accept student marks as input, calculate and printout a grade that correspond to the marks entered. The file containing the function for challenge one is named “grade.js”.
 In the "grade.js", the function named below is aided with the switch statement to facilitate and determine student final grade.
 
