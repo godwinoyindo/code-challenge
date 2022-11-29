@@ -1,12 +1,8 @@
-/*Initiate input prompt*/
-//const prompt = require("prompt-sync")({sigint:true});
 
-/*Speed Detector Challenge*/
-//console.log('ENTER SPEED OF THE CAR');
-//generateDemeritPoint();
+//Function to determine the fate of driver license if the speed exceed the limit
 
 function generateDemeritPoint(){
-    //Get speed prompt
+    //Get speed input prompt
     
     let speed = prompt('Enter speed of the car: ');
 

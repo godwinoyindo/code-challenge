@@ -1,9 +1,5 @@
-/*Initiate input prompt*/
-//const prompt = require("prompt-sync")({sigint:true});
 
-/*Student Grade Generator Challenge*/
-//console.log('STUDENT GRADE GENERATOR');
-//getStudentGrade();
+//STUDENT GRADE GENERATOR
 
 function getStudentGrade(){
     //Get marks prompt
