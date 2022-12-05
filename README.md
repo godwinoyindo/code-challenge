@@ -1,15 +1,16 @@
 # Description
-This is a 
+
 # Title: Week One code challenge
-The project contains three solutions to the three challenges of week one code challenge. All the three challenges are run and tested on browser.
-The file “index.html” contains all the three challenges. 
+This is an application comprising :
+Student Grades Generator
+Speed Limit Detector
+Net Salary Calculator
 
 # Getting Started
 In order for you to use the content on this repo ensure you have the following:
 
 - A computer that runs on either of the following; (Windows 7+, Linux, Mac OS)
-- node index.html
-- Some bit of patience for your own sanity.
+- nodejs 9.0
 
 ## Installation
 
@@ -37,42 +38,34 @@ To use this repo on your machine requires some simple steps
 
 Running the application is very straight forward. You can use the following steps to run the app.
 
-- Install required dependencies from npm
+All the challenges were solved and are contained in the index.html file.
+A user interface has been created to test all the challenges.
+Run the index.html on an the open live browser for the tests to be prompted on the browser. Each challenge has its own prompt where the main functions have been exported and compiled in one file index.html.
+The following prompts will appear on your browser for your inputs;
 
-      npm install
-- Run the application
+# Challege-1 Student Grade generator
 
-      node<file name>.<file extension> e.g node index.js
- To execute it, run it on any browser. The challenges are chronologically arranged with the first challenge comming at the top. "Buttons" are used to aid the click events and initiate input prompts in all the challenges.
+One main function was created to solve the challenge
+switch was used to check for various conditions
+A range of 0 - 100 was set at the begining of the function to avoid grading invalid scores
+
+# Challenge-2 Speed Detector
+One main function was created to solve the challenge
+Switch was used to check for various conditions
+A speed range of upto 400km/hr was set to avoid unrealistic speed
+
+# Challenge-3 Net Salary Calculator
+The function had several conditions to check. Therefore, a couple of helper functions were created.
+Switch was used to check for various conditions
+Minimum deductable income for NHIF is set to ksh. 1000
+The NSSF deduction calculation assumes a rate of 6% through out
+Minimum deductable income for NSSF is set to ksh. 3000
+The payee calculation incorporated pension relief and checked for conditions to match as much as possible to the internet sources
+A main Function netSalaryCalculator was created to merge all the functions
 
 # Authors
 This project was contributed to by:
-- [Godwin Oyindo](https://github.com/godwinoyindo/code-challenge)
+- Godwin Oyindo
 
 # License
-The project is licensed under Apache 2.0.
-
-# Additions
-The first challenge accept student marks as input, calculate and printout a grade that correspond to the marks entered. The file containing the function for challenge one is named “grade.js”.
-In the "grade.js", the function named below is aided with the switch statement to facilitate and determine student final grade.
-
-getStudentGrade(){
-
-}
-
-The second challenge prompt for speed of a car, once the speed is typed, a function in the file “speed.js” calculates and determines whether the demerit points exceed the threshold point, if it exceeds, the driver license is suspended otherwise the demerit point is printed out.
-The function stated below facilitates all these aided with switch statement.
-
-generateDemeritPoint(){
-
-}
-
-
-The third challenge is a model that accept basic salary and total benefits as input, then calculate the Net salary, payee, Gross Salary, NHIF and NSSF deductions. The javascript file containing the function is named “salary.js”.
-
-calculateSalaryAndTax(){
-
-}
-
-The above function in the "salary.js" is reinforced with both "switch" and "if else" statement to aid in calculating and printing out of the final result.
-NSSF with a value 200.00, is presumed constant in all the calculations. NHIF is not considered as insurance relief as stated from 1st January 2022. Both personal relief and insurance relief are not considered in this calculation.
+The project is licensed by ISC.
